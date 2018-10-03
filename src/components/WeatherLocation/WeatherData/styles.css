@@ -1,28 +1,26 @@
 .weatherDatCont{
-  width: 400px;
+  width: 100%;
   height: 100px;
   line-height: 100px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   border-radius: 5px;
+  padding: 5px;
+  box-sizing: border-box;
 }
 
 .weatherTemperature{
-  width: 80%;
+  width: 60%;
   display: inline-block;
 }
 
 .weatherExtraInfo{
-  width: 60%;
+  width: 40%;
   display: inline-block;
   line-height: 28px;
   text-align: left;
-  margin-left: 20px;
 }
 
 .temperature{
-  font-size: 30px;
+  font-size: 28px;
   font-weight: bold;
   padding-left: 20px;
   color: #333;
